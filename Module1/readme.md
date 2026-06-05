@@ -38,6 +38,6 @@ Earlier when dbms was not there data was stored in the form of file format.This 
 In a file system (and even in a DBMS without proper control), simultaneous access can lead to inconsistencies and unexpected results, known as concurrent access anomalies.
 
 **Security Problems**:In a file system, protecting data from unauthorized access, modification, or deletion is difficult due to limited security controls. This can lead to data misuse and privacy violations. DBMS overcomes this problem through authentication, authorization, and access control mechanisms.
----
+
 
 
