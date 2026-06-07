@@ -154,5 +154,42 @@ Better performance for large applications.
 **Disadvantages**:
 More complex to design.
 
+## Data Independence in DBMS
+Data Independence is the ability to change the schema at one level of a database system without affecting the schema at the next higher level.
+In simple words, changes in the database structure should not require changes in application programs.
 
+### Types of Data Independence
+
+#### Physical Data Independence
+Changes in the physical schema do not affect the logical schema.
+Examples:
+Changing file organization.
+Adding indexes.
+Changing storage devices.
+
+#### Logical Data Independence
+Changes in the logical schema do not affect user views or application programs.
+Examples:
+Adding a new column.
+Creating a new table.
+
+## Integrity Constraints in DBMS
+
+Integrity constraints are rules imposed on a database to maintain the accuracy, consistency, and validity of data. Common constraints include domain constraints, key constraints, entity integrity, and referential integrity.
+
+### Domain Constraint
+Restricts the values that can be stored in a column.
+Example:
+Age must be between 0 and 120.
+
+###  Key Constraint
+Ensures that key attributes are unique.
+Example:
+Roll Number must be unique.
+
+### Entity Integrity Constraint
+A Primary Key cannot be NULL.
+
+###  Referential Integrity Constraint
+A Foreign Key must match an existing Primary Key in the referenced table.
 
